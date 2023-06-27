@@ -1,9 +1,3 @@
-//
-//  MoonshotApp.swift
-//  Moonshot
-//
-//  Created by Hiroshi Inoue on R 5/06/22.
-//
 
 import SwiftUI
 
