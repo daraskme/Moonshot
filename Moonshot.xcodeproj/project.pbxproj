@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7216C09A2A4AA9F300190734 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216C0992A4AA9F300190734 /* Color-Theme.swift */; };
 		722E589E2A44142500D56D5F /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E589D2A44142500D56D5F /* MoonshotApp.swift */; };
 		722E58A02A44142500D56D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E589F2A44142500D56D5F /* ContentView.swift */; };
 		722E58A22A44142600D56D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722E58A12A44142600D56D5F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7216C0992A4AA9F300190734 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		722E589A2A44142500D56D5F /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722E589D2A44142500D56D5F /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		722E589F2A44142500D56D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				724D0BB02A4AA1810032D0B9 /* Astronaut.swift */,
 				724D0BB22A4AA1B20032D0B9 /* Bundle-Decodable.swift */,
 				724D0BB42A4AA31E0032D0B9 /* Mission.swift */,
+				7216C0992A4AA9F300190734 /* Color-Theme.swift */,
 				724D0BAC2A4AA13D0032D0B9 /* missions.json */,
 				722E58A42A44142600D56D5F /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				724D0BB12A4AA1810032D0B9 /* Astronaut.swift in Sources */,
+				7216C09A2A4AA9F300190734 /* Color-Theme.swift in Sources */,
 				722E58A02A44142500D56D5F /* ContentView.swift in Sources */,
 				722E589E2A44142500D56D5F /* MoonshotApp.swift in Sources */,
 				724D0BB52A4AA31E0032D0B9 /* Mission.swift in Sources */,

@@ -6,6 +6,10 @@ struct ContentView: View {
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     let missions: [Mission] = Bundle.main.decode("missions.json")
     
+    let columns = [
+        GridItem(.adaptive(minimum: 150))
+    ]
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -22,10 +26,14 @@ struct ContentView: View {
                                     .padding()
                                 
                                 VStack {
-                                    Text(mission.displayName)
-                                        .font(.headline)
-                                    Text(mission.formattedLaunchDate)
-                                        .font(.caption)
+                                    VStack {
+                                        Text(mission.displayName)
+                                            .font(.headline)
+                                            .foregroundColor(.white)
+                                        Text(mission.formattedLaunchDate)
+                                            .font(.caption)
+                                            .foregroundColor(.white.opacity(0.5))
+                                    }
                                 }
                                 .padding(.vertical)
                                 .frame(maxWidth: .infinity)
@@ -39,8 +47,11 @@ struct ContentView: View {
                         )
                     }
                 }
+                .padding([.horizontal, .bottom])
             }
             .navigationTitle("Moonshot")
+            .background(.darkBackground)
+            .preferredColorScheme(.dark)
         }
     }
 }
